@@ -41,3 +41,57 @@ header {
 .logo-image {
     width: 150px; /* Adjust the width as per your requirement */
 }
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    font-size: var(--p-font);
+    color: var(--other-color);
+    font-weight: 400;
+    padding: 10px 15px;
+    margin: 0 5px;
+    background: transparent;
+    border-radius: 30px;
+    transition: all .45s ease;
+}
+
+.navbar a:hover {
+    background: #f7f9fb;
+}
+.navbar a.active {
+    background: #f7f9fb;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons i {
+    height: 30px;
+    width: 50px;
+    background: #f7f9fb;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    color: var(--other-color);
+    font-size: 22px;
+    margin-right: 25px;
+    margin-left: 10px;
+    transform: all .45s ease;
+}
+
+.icons i:hover {
+    transform: scale(0.9);
+}
+
+#menu-icon {
+    color: var(--other-color);
+    font-size: 33px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
