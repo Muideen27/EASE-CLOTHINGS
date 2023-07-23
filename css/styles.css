@@ -22,6 +22,21 @@ body {
     background: var(--bg-color);
 }
 
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 17px 11%;
+    border-bottom: 1px solid #f7f9fb;
+    transition: all .45s ease;
+}
+
 /* Adjust the size of the logo image */
 .logo-image {
     width: 150px; /* Adjust the width as per your requirement */
